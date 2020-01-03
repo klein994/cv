@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="stylesheet" href="stylesheets/swiper.css">
+    <link href='image/favico.png' rel='icon' type='image/x-icon' />
+    <title>Document</title>
+
+
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+        }
+        
+        .bgimg-1,
+        .bgimg-2,
+        .bgimg-3 {
+            position: relative;
+            opacity: 1;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .bgimg-1 {
+            background-image: url("image/bg.jpg");
+            max-width: 100%;
+            height: auto;
+        }
+        
+        .bgimg-2 {
+            background-image: url("image/bg2.jpg");
+            max-width: 100%;
+            height: auto;
+        }
+        
+        .bgimg-3 {
+            background-image: url("image/bg.jpg");
+            max-width: 100%;
+            height: auto;
+        }
+        
+        .caption {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            width: 100%;
+            text-align: center;
+            color: #000;
+        }
+        
+        .caption span.border {
+            background-color: #111;
+            color: #fff;
+            padding: 18px;
+            font-size: 25px;
+            letter-spacing: 10px;
+        }
+        /* Turn off parallax scrolling for tablets and phones */
+        
+        @media only screen and (max-device-width: 1024px) {
+            .bgimg-1,
+            .bgimg-2,
+            .bgimg-3 {
+                background-attachment: scroll;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a class="logo1" href="#"><img src="image/logo2.jpg" alt=""></a>
+        <ul>
+            <li><a href="#">Quien soy</a></li>
+            </li>
+            <li><a href="#dos">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <div class="bgimg-1">
+        <div class="portada">
+            <div class="wrapper">
+                <div class="container1">
+                    <img class="logo2" src="image/logo.jpg" alt="">
+                    <h1>Alberto Klein</h1>
+                    <h2>Developer</h2>
+                    <div class="redes">
+                        <a href="https://es-la.facebook.com/klein994"><img src="image/face.png" alt="ir a facebook"></a>
+                        <a href="https://www.instagram.com/klein478/?hl=es-la"><img src="image/insta.png" alt="ir a instagram"></a>
+                        <a href="https://www.linkedin.com/in/alberto-alejandro-klein-b4ab88149/"><img src="image/lk.png" alt="ir a linkedin"></a>
+                        <a href="https://api.whatsapp.com/send?phone=005491127645038"><img src="image/ws.png" alt="ir a whatsapp"></a>
+                    </div>
+                </div>
+                <div class="container2">
+
+                    <div class="grid">
+                        <div class="title1">
+                            <h1>Datos personales</h1>
+                            <p><strong>Nombre:</strong> Alberto Alejandro</p>
+                            <p><strong>Apellido:</strong> Klein Espejo</p>
+                            <p><strong>DNI:</strong> 95.776.081</p>
+                            <p><strong>Fecha de Nacimiento:</strong> 05 / 03 / 1986</p>
+                            <p><strong>Direccion:</strong> Belgrano C.A.B.A. </p>
+                            <p><strong>Tlf:</strong> +54 1127645038
+                                <p>
+                                    <p><strong>Oficio:</strong> Developer/Frontend
+                                        <p>
+                                            <p><strong>Habilidades:</strong> Photoshop Ilustrator HTML5 CSS SCSS JS PHP MySQL JSON NodeJS ANGULAR GIT SVG
+                                                <p>
+                        </div>
+                        <div class="title2">
+                            <H1>Actualidad</H1>
+                            <p></p>
+                            <p>Me encuentro en la búsqueda de una oportunidad laboral que me permita demostrar mis capacidades. Actualmente me encuentro en un oficio distinto a la Informática que me permitió establecerme en la Argentina, y en la que alcancé
+                                el nivel máximo en la escala del rubro, pero considero que es momento de continuar mi camino en el área para la cual me preparé academicamente, y poder aportar con mis conocimientos para seguir creciendo profesionalmente.
+                                Poseo un excelente dominio en aplicaciones digitales, base de datos y desarrolladores web; además cuento con la capacidad de aprender rápidamente, tengo buena integración en equipos de trabajos, soy proactivo, resolutivo
+                                y responsable.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="divisor">
+        <H1>Acerca de mi</H1>
+        <p>Me encuentro en la búsqueda de una oportunidad laboral que me permita demostrar mis capacidades. Actualmente me encuentro en un oficio distinto a la Informática que me permitió establecerme en la Argentina, y en la que alcancé el nivel máximo
+            en la escala del rubro, pero considero que es momento de continuar mi camino en el área para la cual me preparé academicamente, y poder aportar con mis conocimientos para seguir creciendo profesionalmente. Poseo un excelente dominio en aplicaciones
+            digitales, base de datos y desarrolladores web; además cuento con la capacidad de aprender rápidamente, tengo buena integración en equipos de trabajos, soy proactivo, resolutivo y responsable.
+        </p>
+    </div>
+    <div class="bgimg-2">
+        <div class="wrapper2">
+            <h1>Estudios Realizados</h1>
+            <button class="accordion"> <h2>Nivel educativo</h2></button>
+            <div class="panel">
+                <div class="grid">
+                    <div class="title1">
+                        <img src="http://4.bp.blogspot.com/-f3sCr079tmQ/XYmVVq7OUYI/AAAAAAAAlD4/oLQHq5VxyFEWZxTswARZrPzGaNCKQTdPQCK4BGAYYCw/s1600/logo%2Bpsm%2Bmerida%2Bnuevo%2B2019.jpg" alt="">
+                    </div>
+                    <div>
+                        <h3>Instituto Universitario Santiago Mariño</h3>
+                        <h3>Mérida</h3>
+                        <p><strong>Carrera:</strong>Ingenieria de sistemas</p>
+                        <p><strong>Nivel Alcanzado:</strong> 9° (Noveno) Semestre</p>
+                        <p><strong>Periodo:</strong> 2012-2017</p>
+                        <p><strong>Pensum:</strong>
+                            <a href="http://ivansmedia.net/psm/pdf/p_sistemas.pdf">Pensum</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <button class="accordion"><h2>Cusros Realizados</h2></button>
+            <div class="panel">
+                <div class="grid">
+                    <div class="title1">
+                        <img class="img2" src="https://www.frba.utn.edu.ar/wp-content/uploads/2016/08/logo-utn.ba-horizontal-e1471367724904.jpg" alt="">
+                    </div>
+                    <div>
+                        <h3>UNIVERSIDAD TECNOLÓGICA NACIONAL</h3>
+                        <h3>Buenos Aires</h3>
+                        <p><strong>Carrera:</strong>Professional Webmaster</p>
+                        <p><strong>Nivel Alcanzado:</strong> Aprobado</p>
+                        <p><strong>Periodo:</strong> Octube-Diciembre 2019 (144 Horas)</p>
+                        <p><strong>Proyecto:</strong>
+                            <a href="http://klein994.000webhostapp.com">Proyecto de grado</a>
+                        </p>
+                        <p><strong>Temario:</strong>
+                            <a href="https://sceu.frba.utn.edu.ar/wp-content/uploads/2019/11/temario_wm.pdf">Temario</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <button class="accordion"><h2>Experiancia Laboral</h2></button>
+            <div class="panel">
+                <div class="grid3">
+                    <div>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ipsa amet deserunt mollitia, cumque neque dicta accusantium perspiciatis officiis non fugit quidem, ea, sit animi necessitatibus officia tempore minus? Ipsa!
+                    </div>
+                    <div class="title3">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias voluptatem quasi doloribus sunt aspernatur. Cum minus ad quo nobis ratione eum, maiores repellat enim, ullam quia, vero neque totam accusamus!
+                    </div>
+                    <div>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto et, nihil assumenda porro, pariatur delectus unde recusandae impedit doloribus accusamus nisi? Quisquam quidem, saepe harum vitae dicta quod reprehenderit obcaecati.
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="divisor2">
+        <H1>Acerca de mi</H1>
+        <p>Me encuentro en la búsqueda de una oportunidad laboral que me permita demostrar mis capacidades. Actualmente me encuentro en un oficio distinto a la Informática que me permitió establecerme en la Argentina, y en la que alcancé el nivel máximo
+            en la escala del rubro, pero considero que es momento de continuar mi camino en el área para la cual me preparé academicamente, y poder aportar con mis conocimientos para seguir creciendo profesionalmente. Poseo un excelente dominio en aplicaciones
+            digitales, base de datos y desarrolladores web; además cuento con la capacidad de aprender rápidamente, tengo buena integración en equipos de trabajos, soy proactivo, resolutivo y responsable.
+        </p>
+    </div>
+
+    <div class="bgimg-3">
+        <div class="portada">
+            <div class="wrapper2">
+                <h1>Habilidades Técnicas</h1>
+                <div class="tecnic">
+
+                    <div class="container">
+                        <p>HTML</p>
+                        <div class="skills html">90%</div>
+                    </div>
+
+
+                    <div class="container">
+                        <p>CSS</p>
+                        <div class="skills html">90%</div>
+                    </div>
+
+
+                    <div class="container">
+                        <p>JS</p>
+                        <div class="skills js">65%</div>
+                    </div>
+
+
+                    <div class="container">
+                        <p>PHP</p>
+                        <div class="skills css">80%</div>
+                    </div>
+                    <div class="container">
+                        <p>SCSS</p>
+                        <div class="skills html">90%</div>
+                    </div>
+
+
+                    <div class="container">
+                        <p>MySQL</p>
+                        <div class="skills html">90%</div>
+                    </div>
+
+
+                    <div class="container">
+                        <p>JSON</p>
+                        <div class="skills js">70%</div>
+                    </div>
+
+
+                    <div class="container">
+                        <p>NODEJS</p>
+                        <div class="skills js">70%</div>
+                    </div>
+                    <div class="container">
+                        <p>ANGULAR</p>
+                        <div class="skills js">65%</div>
+                    </div>
+
+
+                    <div class="container">
+                        <p>GIT</p>
+                        <div class="skills html">90%</div>
+                    </div>
+
+
+                    <div class="container">
+                        <p>SVG</p>
+                        <div class="skills js">70%</div>
+                    </div>
+
+
+                    <div class="container">
+                        <p>Idioma Ingles</p>
+                        <div class="skills js">60%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="mail">
+        <h2>Mail</h2>
+        <div class="formulario-mail">
+
+            <form class="form" method="post" action="mail.php">
+
+                <label for="nombre" class="nombre">Nombre</label>
+                <input type="text" placeholder="Nombre" required id="nombre" name="nombre">
+
+                <label for="apellido" class="nombre">Apellido</label>
+                <input type="text" placeholder="Apellido" required id="apellido" name="apellido">
+
+
+
+                <div>
+                    <label for="telefono" class="nombre">Telefono</label>
+                    <input type="tel" placeholder="01112341234" required id="telefono" name="telefono">
+                </div>
+
+
+                <label for="email" class="nombre">Correo:</label>
+                <input type="email" name="email" placeholder="Correo@mail.com" required id="email">
+
+                <textarea class="text-area" name="text-area" id="text-area" placeholder="Comenta"></textarea>
+
+                <input class="button" type="submit" value="Enviar" />
+        </div>
+        </form>
+    </div>
+    </div>
+
+
+    <div class="bgimg-2">
+        <div class="portada">
+            <div class="wrapper2">
+                <h1>Alberto Klein</h1>
+                <h1>Developer</h1>
+
+            </div>
+        </div>
+    </div>
+    <script src="scripts/scripts.js"></script>
+
+</body>
+
+</html>
