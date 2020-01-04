@@ -252,7 +252,7 @@
 
     <div id=dos class="mail ">
         <h2>Mail</h2>
-        <div class="formulario-mail wow fadeInLeft " data-wow-delay="0.1s ">
+        <div class="formulario-mail ">
 
             <form class="form " name="email " method="post " data-netlify-recaptcha="true" data-netlify="true" action="/gracias/index.html">
 
@@ -263,18 +263,14 @@
                 <input type="text " placeholder="Apellido " required id="apellido " name="apellido ">
 
 
-
-                <div>
-                    <label for="telefono " class="nombre ">Teléfono</label>
-                    <input type="tel " placeholder="01112341234 " required id="telefono " name="telefono ">
-                </div>
-
+                <label for="telefono " class="nombre ">Teléfono</label>
+                <input type="tel " placeholder="01112341234 " required id="telefono " name="telefono ">
 
                 <label for="email " class="nombre ">Correo:</label>
                 <input type="email " name="email " placeholder="Correo@mail.com " required id="email ">
 
                 <textarea class="text-area " name="text-area " id="text-area " placeholder="Comenta "></textarea>
-                <div data-netlify-recaptcha="true"></div>
+                <div class="cuadro-formulario" data-netlify-recaptcha="true"></div>
 
                 <input class="button input " type="submit" value="Enviar "></input>
             </form>
