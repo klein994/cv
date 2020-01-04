@@ -352,9 +352,11 @@
       margin-top: 30px;
   }
   
-  .g-recaptcha {
+  .g {
       margin: auto;
       text-align: center;
+      max-width: 450px;
+      height: auto;
   }
   
   .formulario-mail input,
