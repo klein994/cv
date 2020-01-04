@@ -566,4 +566,8 @@
           .mail {
               padding: 20px;
           }
+          #myBtn {
+              font-size: 30px;
+              padding: 7px;
+          }
       }
