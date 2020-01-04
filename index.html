@@ -254,7 +254,7 @@
         <h2>Mail</h2>
         <div class="formulario-mail wow fadeInLeft " data-wow-delay="0.1s ">
 
-            <form class="form " name="email " method="post " data-netlify="true" action="/gracias/index.html">
+            <form class="form " name="email " method="post " data-netlify-recaptcha="true" data-netlify="true" action="/gracias/index.html">
 
                 <label for="nombre " class="nombre ">Nombre</label>
                 <input type="text " placeholder="Nombre " required id="nombre " name="nombre ">
@@ -274,6 +274,7 @@
                 <input type="email " name="email " placeholder="Correo@mail.com " required id="email ">
 
                 <textarea class="text-area " name="text-area " id="text-area " placeholder="Comenta "></textarea>
+                <div data-netlify-recaptcha="true"></div>
 
                 <input class="button input " type="submit" value="Enviar "></input>
             </form>
