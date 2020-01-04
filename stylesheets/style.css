@@ -353,10 +353,8 @@
   }
   
   .g {
-      margin: auto;
-      text-align: center;
-      max-width: 450px;
-      height: auto;
+      position: relative;
+      left: calc(50% - 150px);
   }
   
   .formulario-mail input,
