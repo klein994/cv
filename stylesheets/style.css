@@ -352,6 +352,11 @@
       margin-top: 30px;
   }
   
+  .g-recaptcha {
+      margin: auto;
+      text-align: center;
+  }
+  
   .formulario-mail input,
   .text-area {
       border: none;
