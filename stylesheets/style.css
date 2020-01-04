@@ -339,7 +339,7 @@
   .text-area {
       border: none;
       border-bottom: 1px solid cyan;
-      background: rgba(255, 255, 255, 0.363);
+      background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.014) 0, rgba(255, 255, 255, 0.363) 100%);
       outline: none;
       height: 25px;
       width: 100%;
