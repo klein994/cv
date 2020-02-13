@@ -9,6 +9,18 @@
       /* hamburger */
       /* nav */
       
+      .space {
+          height: 1px;
+          width: 100%;
+          background-color: #111;
+          margin-bottom: 20px;
+      }
+      
+      .space2 {
+          height: 30px;
+          width: 100%;
+      }
+      
       nav {
           position: fixed;
           padding: 8px;
